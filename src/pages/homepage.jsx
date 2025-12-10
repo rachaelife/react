@@ -1,6 +1,7 @@
 import React from 'react'
 import EcobazarNavbar from './components/nav'
 import App from '../miraclesection'
+import Card from '../tommyselect'
 
 const Homepage = () => {
   return (
@@ -8,6 +9,7 @@ const Homepage = () => {
     
     <EcobazarNavbar/>
     <App/>
+    <Card/>
     </>
   )
 }

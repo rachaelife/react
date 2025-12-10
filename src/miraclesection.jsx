@@ -48,7 +48,7 @@ export default function App() {
             h-[520px]
             bg-cover bg-no-repeat bg-bottom
             flex flex-col items-center
-            backgroundImage: url('src/assets/fruit1.jpg');
+           card
           "
         >
           {/* TOP CONTENT */}
@@ -92,7 +92,7 @@ export default function App() {
             h-[520px]
             bg-cover bg-no-repeat bg-bottom
             flex flex-col items-center
-            backgroundImage: url('src/assets/fruit2.jpg');
+            card2
           "
         >
           <div className="text-center mt-4">
@@ -120,7 +120,7 @@ export default function App() {
             h-[520px]
             bg-cover bg-no-repeat bg-bottom
             flex flex-col items-center
-            backgroundImage: url('src/assets/fruit3.jpg');
+            card3
           "
         >
           <div className="text-center mt-4">

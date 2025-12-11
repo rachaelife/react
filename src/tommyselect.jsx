@@ -54,7 +54,7 @@ function Card() {
 
  {/* second row */}
 
-  <div className="flex  gap-2 p-3 justify-center items-center text-center">
+  <div className="flex  gap-2 p-3 justify-center items-center ">
  <div className=" border-black  p-2 bg-white">
  <img src={bread} alt="bread" className="w-44 " />
  <p>Bread&Bakery</p>

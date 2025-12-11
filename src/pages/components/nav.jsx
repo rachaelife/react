@@ -171,20 +171,21 @@ export default function EcobazarNavbar() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-6">
-            <li className="cursor-pointer hover:text-green-500 flex items-center gap-1">
+            <Link className="cursor-pointer hover:text-green-500 flex items-center gap-1">
               Home <ChevronDown size={14} />
-            </li>
-            <li className="cursor-pointer hover:text-green-500 flex items-center gap-1">
+            </Link>
+            <Link className="cursor-pointer hover:text-green-500 flex items-center gap-1">
               Shop <ChevronDown size={14} />
-            </li>
-            <li className="cursor-pointer hover:text-green-500 flex items-center gap-1">
+            </Link>
+            <Link className="cursor-pointer hover:text-green-500 flex items-center gap-1">
               Pages <ChevronDown size={14} />
-            </li>
-            <li className="cursor-pointer hover:text-green-500 flex items-center gap-1">
+            </Link>
+            <Link className="cursor-pointer hover:text-green-500 flex items-center gap-1">
               Blog <ChevronDown size={14} />
-            </li>
+            </Link>
             <Link className="cursor-pointer hover:text-green-500">About Us</Link>
-            <li className="cursor-pointer hover:text-green-500">Contact Us</li>
+            <Link className="cursor-pointer hover:text-green-500">Contact Us</Link>
+            <Link to="/"></Link>
           </ul>
 
           {/* Phone (Desktop Only) */}

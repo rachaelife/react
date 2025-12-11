@@ -1,7 +1,7 @@
 import React from 'react'
-import EcobazarNavbar from './components/nav'
-import App from '../miraclesection'
-import Card from '../tommyselect'
+import EcobazarNavbar from '../components/nav'
+import App from './miraclesection'
+import Card from './tommyselect'
 
 const Homepage = () => {
   return (

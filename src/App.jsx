@@ -1,6 +1,6 @@
 import { Bs0Circle } from "react-icons/bs"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import EcobazarNavbar from "./pages/components/nav"
+import EcobazarNavbar from "./components/nav"
 import Homepage from "./pages/homepage"
 
 

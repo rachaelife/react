@@ -11,7 +11,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 .container{
   background-image: url("assets/836b902525a0fb21206930104bc039e6d628e8ca.jpg");
 }
+.card{
+   background-image: url('src/assets/fruit1.jpg');
+}
+.card2{
+   background-image: url('src/assets/fruit2.jpg');
+}
+.card3{
+   background-image: url('src/assets/fruit3.jpg');
+}
+=======
+/* body{
+background-color: red;
+} */
+>>>>>>> c3aca455a44b6655da09b02197286d397fc7175a
 
